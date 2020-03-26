@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Purchase Details</title>
+  </head>
+  
+<br></br>
+<br></br>
+<h3>Please fill out the following details for your rental purchase</h3>
+<br></br>
+
+<body>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="center-this-stuff">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="4GFS6L9ACF4JS">
+<table>
+<tr>
+<td><input type="hidden" name="on0" value="Nights">Nights</td>
+</tr>
+<tr>
+<td>
+<select name="os0">
+	<option value="(2)">(2) $300.00 USD</option>
+	<option value="(3)">(3) $450.00 USD</option>
+	<option value="(4)">(4) $600.00 USD</option>
+	<option value="(5)">(5) $750.00 USD</option>
+	<option value="(6)">(6) $900.00 USD</option>
+	<option value="(7 - $25 discount)">(7 - $25 discount) $1,025.00 USD</option>
+	<option value="(8)">(8) $1,175.00 USD</option>
+	<option value="(9)">(9) $1,325.00 USD</option>
+	<option value="(10)">(10) $1,475.00 USD</option>
+	<option value="(11)">(11) $1,625.00 USD</option>
+</select> 
+</td>
+</tr>
+</table>
+<br></br>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" style="display:block; margin:0 auto" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<style>
+
+.center-this-stuff {
+	display:flex;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+	}
+	
+h3 {
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  
+}
+
+</style>
+</body>
+</html>
